@@ -3,5 +3,10 @@
     "@types/aws-lambda": "^8.10.141",
     "esbuild": "^0.23.0",
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@aws-lambda-powertools/logger": "^2.5.0",
+    "@aws-lambda-powertools/metrics": "^2.5.0",
+    "@aws-lambda-powertools/tracer": "^2.5.0"
   }
 }

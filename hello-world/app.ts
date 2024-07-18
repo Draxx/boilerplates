@@ -1,5 +1,5 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult, Context } from 'aws-lambda';
-import { Metrics, MetricUnits } from '@aws-lambda-powertools/metrics';
+import { Metrics } from '@aws-lambda-powertools/metrics';
 import { Logger } from '@aws-lambda-powertools/logger';
 import { Tracer } from '@aws-lambda-powertools/tracer';
 const metrics = new Metrics();
